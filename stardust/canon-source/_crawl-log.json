@@ -1,0 +1,28 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:figma-to-eds capture",
+    "writtenAt": "2026-10-12T19:38:30.839Z"
+  },
+  "fetchTechnique": "figma-mcp",
+  "server": "excatfigma",
+  "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+  "rootNode": "13496:19403",
+  "playwrightRenderedSource": false,
+  "frames": [
+    "channel-consent",
+    "email-verification",
+    "email-verified",
+    "forgot-password",
+    "link-expired",
+    "login-landing-desktop",
+    "login-landing-mobile",
+    "login-landing-tablet",
+    "login-without-password",
+    "profile-review",
+    "registration",
+    "resend-verification-email",
+    "reset-link-expired",
+    "reset-pass-sent",
+    "waiting-confirmation"
+  ]
+}

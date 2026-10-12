@@ -1,0 +1,42 @@
+/* two 12px #d0006f circles, gap 12, py 40 */
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-lg) 0;
+}
+
+.loader .loader-dots {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.loader .loader-dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--background-core-3);
+  animation: loader-pulse 1.2s ease-in-out infinite;
+}
+
+.loader .loader-dots span + span {
+  animation-delay: 0.3s;
+}
+
+.loader .loader-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@keyframes loader-pulse {
+  50% { opacity: 0.35; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader .loader-dots span {
+    animation: none;
+  }
+}

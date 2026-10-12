@@ -1,0 +1,130 @@
+{
+ "spec": "stardust/figma-to-eds/gates/geometry-spec.json",
+ "checks": 28,
+ "failures": 0,
+ "pass": true,
+ "detail": [],
+ "measured": [
+  {
+   "case": "login-desktop-1440",
+   "check": "hero",
+   "measured": {
+    "top": 0,
+    "left": 0,
+    "width": 1440,
+    "height": 941
+   }
+  },
+  {
+   "case": "login-desktop-1440",
+   "check": "card",
+   "measured": {
+    "top": 72.5,
+    "left": 80,
+    "width": 550,
+    "height": 796
+   }
+  },
+  {
+   "case": "login-desktop-1440",
+   "check": "email-input",
+   "measured": {
+    "top": 220.5,
+    "left": 120,
+    "width": 470,
+    "height": 54
+   }
+  },
+  {
+   "case": "login-desktop-1440",
+   "check": "submit",
+   "measured": {
+    "top": 404.5,
+    "left": 120,
+    "width": 470,
+    "height": 42
+   }
+  },
+  {
+   "case": "login-desktop-1440",
+   "check": "title-to-fields",
+   "measured": {
+    "top": 192.5,
+    "left": 120,
+    "width": 470,
+    "height": 302,
+    "gap": 40
+   }
+  },
+  {
+   "case": "login-tablet-768",
+   "check": "hero",
+   "measured": {
+    "top": 0,
+    "left": 0,
+    "width": 768,
+    "height": 869
+   }
+  },
+  {
+   "case": "login-tablet-768",
+   "check": "card",
+   "measured": {
+    "top": 36.5,
+    "left": 109,
+    "width": 550,
+    "height": 796
+   }
+  },
+  {
+   "case": "login-tablet-768",
+   "check": "email-input",
+   "measured": {
+    "top": 184.5,
+    "left": 149,
+    "width": 470,
+    "height": 54
+   }
+  },
+  {
+   "case": "registration-desktop-1440",
+   "check": "h1",
+   "measured": {
+    "top": 40,
+    "left": 130,
+    "width": 1180,
+    "height": 50
+   }
+  },
+  {
+   "case": "registration-desktop-1440",
+   "check": "field-col1",
+   "measured": {
+    "top": 222,
+    "left": 130,
+    "width": 570,
+    "height": 54
+   }
+  },
+  {
+   "case": "forgot-password-1440",
+   "check": "email-input",
+   "measured": {
+    "top": 174,
+    "left": 435,
+    "width": 570,
+    "height": 54
+   }
+  },
+  {
+   "case": "forgot-password-1440",
+   "check": "actions-h",
+   "measured": {
+    "top": 268,
+    "left": 546.1,
+    "width": 203.5,
+    "height": 42
+   }
+  }
+ ]
+}

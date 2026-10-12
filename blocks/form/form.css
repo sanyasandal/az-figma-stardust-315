@@ -1,0 +1,396 @@
+/* stylelint-disable no-descending-specificity -- selectors follow Figma component order, not specificity */
+
+/* Form block: Figma ".Forms" (13496:12041) and "Login Window" (13496:9636) */
+.form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-x-big);
+}
+
+/* field: label Inter Bold 16/24 with pink "*", gap 4, input h54 px16 radius 4 */
+.form .form-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xx-sm);
+  min-width: 0;
+}
+
+.form .form-field-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--spacing-x-sm);
+}
+
+.form .form-label {
+  color: var(--text-body-1);
+  font-weight: 700;
+}
+
+.form .form-required {
+  color: var(--text-warning);
+}
+
+.form .form-aux-link {
+  color: var(--text-interaction);
+  text-decoration: underline;
+}
+
+.form .form-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form input:not([type='checkbox']),
+.form select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 54px;
+  margin: 0;
+  border: var(--border-border-width-border-1) solid var(--forms-border-3);
+  border-radius: var(--border-border-radius-rounded-md);
+  padding: 0 var(--spacing-md);
+  background-color: var(--background-supporting-2);
+  color: var(--text-body-1);
+  font-family: var(--body-font-family);
+  font-size: var(--type-font-body-body-size);
+  line-height: var(--type-font-body-body-line-height);
+}
+
+.form input::placeholder {
+  color: var(--text-placeholder-1);
+  opacity: 1;
+}
+
+.form input:focus-visible,
+.form select:focus-visible {
+  border-color: var(--forms-border-6);
+  outline: 1px solid var(--forms-border-6);
+  outline-offset: 0;
+}
+
+.form input:user-invalid,
+.form select:user-invalid {
+  border-color: var(--text-warning);
+}
+
+.form select {
+  appearance: none;
+  padding-right: 48px;
+  cursor: pointer;
+}
+
+.form select:has(option[value='']:checked) {
+  color: var(--text-placeholder-1);
+}
+
+.form .form-control > .icon {
+  position: absolute;
+  right: var(--spacing-md);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.form .form-field-password input {
+  padding-right: 56px;
+}
+
+.form .form-reveal {
+  position: absolute;
+  right: var(--spacing-x-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border: 0;
+  border-radius: var(--border-border-radius-rounded-md);
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.form .form-reveal[aria-pressed='true'] .icon {
+  opacity: 0.5;
+}
+
+/* checkbox: 20x20 radius 4 border #d8dada, gap 12 */
+.form .form-check {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  grid-column: 1 / -1;
+}
+
+.form .form-check input {
+  flex: none;
+  appearance: none;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border: var(--border-border-width-border-1) solid var(--forms-border-3);
+  border-radius: var(--border-border-radius-rounded-md);
+  background: var(--background-supporting-2) center / 14px no-repeat;
+  cursor: pointer;
+}
+
+.form .form-check-checkbox input:checked {
+  border-color: var(--forms-border-6);
+  background-color: var(--background-core-3);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M2.5 7.5l3 3 6-7' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.form .form-check label {
+  color: var(--text-body-1);
+  cursor: pointer;
+}
+
+/* toggle: 36w switch beside text, gap 16 */
+.form .form-check-toggle {
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.form .form-check-toggle input {
+  position: relative;
+  width: 28px;
+  height: 16px;
+  margin: 4px;
+  border-color: var(--forms-border-3);
+  border-radius: var(--border-border-radius-rounded-full);
+  background: var(--forms-border-1);
+  transition: background-color 0.2s;
+}
+
+.form .form-check-toggle input::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--forms-border-3);
+  background: var(--background-supporting-2);
+  transition: transform 0.2s;
+}
+
+.form .form-check-toggle input:checked {
+  border-color: var(--background-core-3);
+  background: var(--background-core-3);
+}
+
+.form .form-check-toggle input:checked::after {
+  transform: translateX(12px);
+}
+
+/* buttons collage: centered, gap 16 inside forms */
+.form .form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-md);
+  grid-column: 1 / -1;
+}
+
+.form .form-title {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.form .form-status,
+.form .form-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  text-align: center;
+}
+
+/* divider "Or": Inter Bold 16, 1px #d8dfde lines, gap 8 */
+.form .form-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-x-sm);
+  font-weight: 700;
+}
+
+.form .form-divider::before,
+.form .form-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--table-table-header);
+}
+
+/* two-column grid (registration): 570 + 40 + 570 */
+@media (width >= 768px) {
+  .form:not(.login, .centered) form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--spacing-lg);
+  }
+
+  .form:not(.login, .centered) .form-check + .form-check {
+    margin-top: calc(var(--spacing-md) - var(--spacing-lg));
+  }
+}
+
+/* centered single column (resend, forgot password, login without password) */
+.form.centered form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+/* login: card over full-bleed hero image */
+.section.form-container:has(.form.login) {
+  padding: 0;
+}
+
+.section.form-container:has(.form.login) > .form-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.form.login {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form.login .form-background {
+  display: none;
+}
+
+.form.login .form-card {
+  position: relative;
+  width: 100%;
+  background: var(--background-supporting-2);
+}
+
+.form.login .form-card-body {
+  padding: var(--spacing-x-big) var(--spacing-md);
+}
+
+.form.login form {
+  gap: var(--spacing-x-big);
+}
+
+.form.login .form-title {
+  font-size: var(--type-headings-lexia-26-size);
+  line-height: var(--type-headings-lexia-26-line-height);
+  text-align: center;
+}
+
+.form.login .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-x-big);
+}
+
+.form.login .form-group-alt {
+  gap: var(--spacing-md);
+}
+
+.form.login .form-actions {
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.form.login .form-actions .button {
+  width: 100%;
+}
+
+.form.login .form-card-footer {
+  padding: var(--spacing-md);
+  background: var(--table-table-row-bg-2);
+}
+
+.form.login .form-card-footer .form-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+@media (width >= 768px) {
+  .form.login {
+    min-height: 869px;
+    padding: var(--spacing-xxx-big) var(--spacing-xx-big);
+  }
+
+  .form.login .form-background {
+    display: block;
+    position: absolute;
+    inset: 0;
+  }
+
+  .form.login .form-background picture,
+  .form.login .form-background img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .form.login .form-card {
+    width: 550px;
+  }
+
+  .form.login .form-card-body {
+    padding: var(--spacing-lg);
+  }
+
+  .form.login form {
+    gap: var(--spacing-lg);
+  }
+
+  .form.login .form-title {
+    font-size: var(--type-headings-lexia-36-size);
+    line-height: var(--type-headings-lexia-36-line-height);
+  }
+
+  .form.login .form-check {
+    justify-content: center;
+  }
+
+  .form.login .form-card-footer {
+    padding: var(--spacing-x-big) var(--spacing-md);
+  }
+
+  .form.login .form-card-footer .form-note {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* desktop: card left-aligned at px80 over a 941px hero */
+@media (width >= 1200px) {
+  .form.login {
+    justify-content: flex-start;
+    min-height: 941px;
+    padding: var(--spacing-lg) var(--container-padding-xl);
+  }
+}
+
+@media (width < 768px) {
+  .form .form-empty {
+    display: none;
+  }
+}
+
+/* group label (Channel consent) and footnote */
+.form .form-legend {
+  margin: 0;
+  font-weight: 700;
+  color: var(--text-body-1);
+}
+
+.form .form-hint {
+  margin: 0;
+  color: var(--text-body-1);
+}

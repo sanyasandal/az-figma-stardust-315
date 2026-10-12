@@ -2,7 +2,7 @@ import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 // media query match that indicates mobile/tablet width
-const isDesktop = window.matchMedia('(min-width: 900px)');
+const isDesktop = window.matchMedia('(min-width: 1024px)');
 
 /**
  * Closes the open nav dropdown (desktop) or the nav menu (mobile) on Escape
@@ -102,18 +102,36 @@ export default async function decorate(block) {
   nav.id = 'nav';
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
-  const classes = ['brand', 'sections', 'tools'];
-  classes.forEach((c, i) => {
-    const section = nav.children[i];
+  // Figma "Header": optional utility bar, brand (logo), sections, tools.
+  // The brand is the first section with an image; anything before it is the utility bar.
+  const navChildren = [...nav.children];
+  let brandIndex = navChildren.findIndex((section) => section.querySelector('picture, img'));
+  if (brandIndex < 0) brandIndex = 0;
+  navChildren.slice(0, brandIndex).forEach((section) => section.classList.add('nav-utility'));
+  ['brand', 'sections', 'tools'].forEach((c, i) => {
+    const section = navChildren[brandIndex + i];
     if (section) section.classList.add(`nav-${c}`);
   });
+  if (!nav.querySelector('.nav-sections')) block.closest('header')?.classList.add('header-minimal');
 
+  nav.querySelectorAll('.button-wrapper, .button-container').forEach((wrapper) => {
+    wrapper.className = '';
+  });
   const navBrand = nav.querySelector('.nav-brand');
-  const brandLink = navBrand.querySelector('.button');
-  if (brandLink) {
-    brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
-  }
+  navBrand?.querySelectorAll('a').forEach((a) => { a.className = ''; });
+
+  const navTools = nav.querySelector('.nav-tools');
+  navTools?.querySelectorAll('a').forEach((a) => {
+    if (a.querySelector('.icon')) {
+      a.className = 'nav-tool-icon';
+      if (!a.getAttribute('aria-label')) a.setAttribute('aria-label', a.title || 'Search');
+    } else {
+      a.className = 'button secondary';
+    }
+  });
+
+  // utility bar renders outside the main row so it spans the full width above it
+  const utility = [...nav.querySelectorAll('.nav-utility')];
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
@@ -140,21 +158,35 @@ export default async function decorate(block) {
     });
   }
 
-  // hamburger for mobile
-  const hamburger = document.createElement('div');
-  hamburger.classList.add('nav-hamburger');
-  hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
-      <span class="nav-hamburger-icon"></span>
-    </button>`;
-  hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
-  nav.prepend(hamburger);
-  nav.setAttribute('aria-expanded', 'false');
-  // prevent mobile nav behavior on window resize
-  toggleMenu(nav, navSections, isDesktop.matches);
-  isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
+  // hamburger for mobile (the minimal header has no sections, so no menu)
+  if (navSections) {
+    const hamburger = document.createElement('div');
+    hamburger.classList.add('nav-hamburger');
+    hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
+        <span class="nav-hamburger-icon"></span>
+      </button>`;
+    hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
+    nav.prepend(hamburger);
+    nav.setAttribute('aria-expanded', 'false');
+    // prevent mobile nav behavior on window resize
+    toggleMenu(nav, navSections, isDesktop.matches);
+    isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
+  }
 
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
+  if (utility.length) {
+    const utilityBar = document.createElement('div');
+    utilityBar.className = 'nav-utility-bar';
+    utility.forEach((section) => {
+      section.querySelectorAll('ul').forEach((ul) => {
+        ul.setAttribute('role', 'list');
+        ul.querySelectorAll('strong > a, a:has(> strong)').forEach((a) => a.setAttribute('aria-current', 'true'));
+      });
+      utilityBar.append(section);
+    });
+    navWrapper.append(utilityBar);
+  }
   navWrapper.append(nav);
   block.append(navWrapper);
 }
