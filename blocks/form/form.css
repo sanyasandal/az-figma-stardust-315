@@ -83,7 +83,8 @@
 }
 
 .form select:has(option[value='']:checked) {
-  color: var(--text-placeholder-1);
+  /* Figma placeholder #b2b4b4 fails WCAG AA on a select value; see direction.md */
+  color: var(--text-label-2);
 }
 
 .form .form-control > .icon {

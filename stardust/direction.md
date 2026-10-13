@@ -35,3 +35,7 @@ figma-to-eds, donor mode `sample-pages` (Figma frame "Page: Login & Registration
 - token-literals: PASS, 0 hardcoded token values in blocks.
 - geometry: PASS, 28 checks (login 1440/768, registration 1440, forgot-password 1440).
 - Validation loop: 13 pages × 3 viewports. 0 console errors, 0 failed requests, 0 overflow, 0 unlabeled inputs, 0 missing alt.
+
+## Post-PR fix
+- **Accessibility deviation:** the empty `select` text uses `--text-label-2` (#656969, about 5.7:1) instead of the Figma placeholder `--text-placeholder-1` (#b2b4b4, 2.08:1), which failed WCAG AA in Lighthouse. Input `::placeholder` keeps the Figma colour.
+- `aem-psi-check` on PR #1 failed twice with "Quota exceeded" from the PageSpeed API (no score). Local Lighthouse (mobile) on the branch preview: login perf/a11y/BP 100/100/100; registration 100/96 → fixed above. SEO 69 is due only to the noindex `.aem.page` preview.
