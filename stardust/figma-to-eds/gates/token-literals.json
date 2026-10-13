@@ -1,0 +1,11 @@
+{
+ "tokens": "stardust/reskin/donor-tokens.json",
+ "blocks": "blocks",
+ "ignore": [
+  "0px",
+  "1px"
+ ],
+ "findings": 0,
+ "pass": true,
+ "detail": []
+}

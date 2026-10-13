@@ -1,0 +1,196 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:master + figma-to-eds",
+    "writtenAt": "2026-10-12T18:55:32.418Z",
+    "stardustVersion": "0.10.0"
+  },
+  "site": {
+    "originUrl": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60/One-AZ-v3.2?node-id=13496-19403",
+    "deployUrl": "https://figma-login-registration--az-figma-stardust-315--sanyasandal.aem.page/",
+    "extractedAt": "2026-10-12T18:55:32.418Z",
+    "pageCap": 100,
+    "totalDiscovered": 13,
+    "crawled": 13
+  },
+  "direction": {
+    "resolvedAt": "2026-10-12T18:55:32.418Z",
+    "phrase": "migrate the Figma Login & Registration board to EDS in auto mode using figma-to-eds",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "flow": "figma-to-eds",
+  "flowChosenAt": "2026-10-12T18:55:32.418Z",
+  "flowSource": "user-phrase",
+  "handsOff": true,
+  "pages": [
+    {
+      "slug": "login",
+      "path": "/login",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "registration",
+      "path": "/registration",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "channel-consent",
+      "path": "/channel-consent",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "email-verification",
+      "path": "/email-verification",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "email-verified",
+      "path": "/email-verified",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "profile-review",
+      "path": "/profile-review",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "link-expired",
+      "path": "/link-expired",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "resend-verification-email",
+      "path": "/resend-verification-email",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "forgot-password",
+      "path": "/forgot-password",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "waiting-confirmation",
+      "path": "/waiting-confirmation",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "login-without-password",
+      "path": "/login-without-password",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "reset-link-expired",
+      "path": "/reset-link-expired",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    },
+    {
+      "slug": "reset-password-sent",
+      "path": "/reset-password-sent",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "migrated",
+          "at": "2026-10-12T19:38:30.839Z",
+          "approvedBy": "hands-off",
+          "note": "DA authored + previewed; gates pass"
+        }
+      ]
+    }
+  ]
+}

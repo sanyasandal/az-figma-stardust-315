@@ -1,0 +1,945 @@
+[
+ {
+  "slug": "email-verified",
+  "nodeId": "13527:9171",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13527:9173",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16
+   },
+   {
+    "nodeId": "13527:9175",
+    "kind": "buttons",
+    "y": 214,
+    "height": 518,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Back to login"
+    ],
+    "buttons": [
+     {
+      "label": "Back to login",
+      "variant": "primary",
+      "fontWeight": 700
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13527:9176",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "link-expired",
+  "nodeId": "13527:9552",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13527:9554",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16,
+    "notes": "paragraph exists in design context but is NOT visible in screenshot (.Title box is 100px tall, pushing .Text below the 154px section; it is covered). Visible: heading only."
+   },
+   {
+    "nodeId": "13527:9556",
+    "kind": "buttons",
+    "y": 214,
+    "height": 518,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Resend the email"
+    ],
+    "buttons": [
+     {
+      "label": "Resend the email",
+      "variant": "primary",
+      "fontWeight": 600
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13527:9557",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "reset-link-expired",
+  "nodeId": "13530:14956",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13530:14958",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16
+   },
+   {
+    "nodeId": "13530:14959",
+    "kind": "form",
+    "y": 214,
+    "height": 122,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "Your email address"
+    ],
+    "fields": [
+     {
+      "label": "Your email address",
+      "required": true,
+      "placeholder": "e.g. example@email.com",
+      "type": "email",
+      "widthPx": 570,
+      "inputHeightPx": 54,
+      "centered": true
+     }
+    ]
+   },
+   {
+    "nodeId": "13530:14961",
+    "kind": "buttons",
+    "y": 336,
+    "height": 420,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Send me the link"
+    ],
+    "buttons": [
+     {
+      "label": "Send me the link",
+      "variant": "primary",
+      "fontWeight": 600
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13530:14962",
+    "kind": "footer",
+    "y": 756,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "reset-pass-sent",
+  "nodeId": "13530:15983",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13530:15985",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16
+   },
+   {
+    "nodeId": "13530:15988",
+    "kind": "buttons",
+    "y": 214,
+    "height": 518,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Back to login"
+    ],
+    "buttons": [
+     {
+      "label": "Back to login",
+      "variant": "primary",
+      "fontWeight": 600
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13530:15989",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ],
+  "hiddenNodes": "13530:15987 Block Content (hidden): accordion/toggle-group block; header hidden layers: Prescribing Info bar, Disclaimer bar, Contact Navigation, Main Navigation, Right Content"
+ },
+ {
+  "slug": "email-verification",
+  "nodeId": "13496:19400",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13496:18992",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16,
+    "notes": "paragraph exists in design context but is NOT visible in screenshot (.Title box is 100px tall, pushing .Text below the 154px section; it is covered). Visible: heading only."
+   },
+   {
+    "nodeId": "13496:18994",
+    "kind": "buttons",
+    "y": 214,
+    "height": 518,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Resend email",
+     "Back to login"
+    ],
+    "buttons": [
+     {
+      "label": "Resend email",
+      "variant": "primary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Back to login",
+      "variant": "secondary",
+      "fontWeight": 700
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13496:18995",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "profile-review",
+  "nodeId": "13527:9366",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13527:9368",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 154,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading",
+     "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16,
+    "notes": "paragraph exists in design context but is NOT visible in screenshot (.Title box is 100px tall, pushing .Text below the 154px section; it is covered). Visible: heading only."
+   },
+   {
+    "nodeId": "13527:9370",
+    "kind": "buttons",
+    "y": 214,
+    "height": 518,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Back to home"
+    ],
+    "buttons": [
+     {
+      "label": "Back to home",
+      "variant": "primary",
+      "fontWeight": 700
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13527:9371",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "forgot-password",
+  "nodeId": "13530:12110",
+  "width": 1440,
+  "height": 1024,
+  "header": "minimal",
+  "sections": [
+   {
+    "nodeId": null,
+    "kind": "header",
+    "y": 0,
+    "height": 60,
+    "padding": {
+     "top": 12,
+     "bottom": 12
+    },
+    "texts": [],
+    "notes": "minimal: AstraZeneca logo only (136x30) in 1180 container; no nav/search/login; 1px border #ebefee"
+   },
+   {
+    "nodeId": "13530:12112",
+    "kind": "page-intro",
+    "y": 60,
+    "height": 90,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "The most inspiring heading"
+    ],
+    "titleFont": "Lexia 400 46px/50px #830051 left",
+    "bodyFont": "Inter 400 16px/24px #3c4242",
+    "gapPx": 16
+   },
+   {
+    "nodeId": "13530:12113",
+    "kind": "form",
+    "y": 150,
+    "height": 122,
+    "padding": {
+     "top": 40,
+     "bottom": 0
+    },
+    "texts": [
+     "Your email address"
+    ],
+    "fields": [
+     {
+      "label": "Your email address",
+      "required": true,
+      "placeholder": "e.g. example@email.com",
+      "type": "email",
+      "widthPx": 570,
+      "inputHeightPx": 54,
+      "centered": true
+     }
+    ]
+   },
+   {
+    "nodeId": "13530:12115",
+    "kind": "buttons",
+    "y": 272,
+    "height": 460,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "Create new password",
+     "Back to login"
+    ],
+    "buttons": [
+     {
+      "label": "Create new password",
+      "variant": "primary",
+      "fontWeight": 600
+     },
+     {
+      "label": "Back to login",
+      "variant": "secondary",
+      "fontWeight": 700
+     }
+    ],
+    "notes": "centered row, gap 10px; buttons h42 px16 radius4, primary bg #d0006f/white text, secondary white bg/#d0006f border+text; section stretches to fill frame (white space)"
+   },
+   {
+    "nodeId": "13530:12116",
+    "kind": "footer",
+    "y": 732,
+    "height": 292,
+    "padding": {
+     "top": 40,
+     "bottom": 40
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "login-landing-tablet",
+  "nodeId": "13496:10761",
+  "width": 768,
+  "height": 1313,
+  "header": "full",
+  "headerLayout": {
+   "nodeId": "13496:9861",
+   "height": 58,
+   "mainHeaderHeight": 60,
+   "padding": {
+    "x": 32,
+    "y": 12
+   },
+   "contentWidth": 704,
+   "logo": "136x30 left",
+   "right": "Frame 1 84x34: search icon + hamburger icon (gap 16); NO login button, no nav links",
+   "border": "1px #ebefee"
+  },
+  "sections": [
+   {
+    "nodeId": "13496:9861",
+    "kind": "header",
+    "y": 0,
+    "height": 58,
+    "texts": []
+   },
+   {
+    "nodeId": "13496:9862",
+    "kind": "login-card",
+    "y": 58,
+    "height": 869,
+    "padding": {
+     "top": 32,
+     "bottom": 32
+    },
+    "texts": [
+     "Login to your account",
+     "Email",
+     "Password",
+     "Forgot your password?",
+     "Login",
+     "Remember me on this device",
+     "Or",
+     "Login with Magic Link",
+     "Login using DocCheck",
+     "Login with AZ Employee Email",
+     "Don’t have an account?",
+     "Create account"
+    ],
+    "fields": [
+     {
+      "label": "Email",
+      "required": true,
+      "placeholder": "john.dowry@example.com",
+      "type": "email",
+      "widthPx": 470,
+      "inputHeightPx": 54
+     },
+     {
+      "label": "Password",
+      "required": true,
+      "placeholder": "*************",
+      "type": "password",
+      "widthPx": 470,
+      "inputHeightPx": 54,
+      "extras": "eye-slash toggle icon right; 'Forgot your password?' link right of label (Inter 400 16/24 #d0006f underline)"
+     }
+    ],
+    "buttons": [
+     {
+      "label": "Login",
+      "variant": "primary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login with Magic Link",
+      "variant": "secondary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login using DocCheck",
+      "variant": "secondary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login with AZ Employee Email",
+      "variant": "secondary",
+      "fontWeight": 700
+     }
+    ],
+    "heroImage": "full-bleed background image (Image Placeholder I13496:9862;12643:9903) 768x869 behind the card; card centered over it",
+    "card": {
+     "widthPx": 550,
+     "x": 109,
+     "yInSection": 36.5,
+     "height": 796,
+     "outerFramePadding": {
+      "x": 28,
+      "y": 32
+     },
+     "topContent": {
+      "padding": 40,
+      "gap": 40,
+      "height": 724,
+      "bg": "#ffffff"
+     },
+     "formGap": 24,
+     "fieldWidth": 470,
+     "bottomContent": {
+      "height": 72,
+      "padding": {
+       "top": 24,
+       "bottom": 24
+      },
+      "layout": "row centered gap 16",
+      "bg": "#ebefee"
+     },
+     "radius": "visually rounded in screenshot; not exported in design context",
+     "checkbox": "centered row gap 12, 20x20 box"
+    },
+    "title": {
+     "font": "Lexia 400",
+     "fontSize": 36,
+     "lineHeight": 40,
+     "align": "center",
+     "color": "#830051"
+    },
+    "secondaryButtonsGap": 16,
+    "orDivider": "1px #d8dfde lines, 'Or' Inter 700 16/24, gap 8"
+   },
+   {
+    "nodeId": "13496:9863",
+    "kind": "footer",
+    "y": 927,
+    "height": 386,
+    "padding": {
+     "top": 32,
+     "bottom": 32,
+     "x": 32
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ],
+    "stacking": "Container gap 32; Main Content column gap 32: [1st Column full width 704 (logo + text, gap 16, h94)] then [Frame 3 row justify-between: 2nd Column 300w | 3rd Column 300w, item gap 16, h144]; then Social + text row justify-between (icons 164x20 | code)",
+    "textAlign": "left"
+   }
+  ]
+ },
+ {
+  "slug": "login-landing-mobile",
+  "nodeId": "13496:10762",
+  "width": 375,
+  "height": 1326,
+  "header": "full",
+  "headerLayout": {
+   "nodeId": "13496:10326",
+   "height": 58,
+   "mainHeaderHeight": 60,
+   "padding": {
+    "x": 16,
+    "y": 12
+   },
+   "contentWidth": 343,
+   "logo": "136x30 left",
+   "right": "Frame 1 84x34: search icon + hamburger icon; NO login button",
+   "border": "1px #ebefee"
+  },
+  "sections": [
+   {
+    "nodeId": "13496:10326",
+    "kind": "header",
+    "y": 0,
+    "height": 58,
+    "texts": []
+   },
+   {
+    "nodeId": "13496:10327",
+    "kind": "login-card",
+    "y": 58,
+    "height": 734,
+    "padding": {
+     "top": 24,
+     "bottom": 0,
+     "x": 16
+    },
+    "texts": [
+     "Login to your account",
+     "Email",
+     "Password",
+     "Forgot your password?",
+     "Login",
+     "Remember me on this device",
+     "Or",
+     "Login with Magic Link",
+     "Login using DocCheck",
+     "Login with AZ Employee Email",
+     "Don’t have an account?",
+     "Create account"
+    ],
+    "fields": [
+     {
+      "label": "Email",
+      "required": true,
+      "placeholder": "john.dowry@example.com",
+      "type": "email",
+      "widthPx": 343,
+      "inputHeightPx": 54
+     },
+     {
+      "label": "Password",
+      "required": true,
+      "placeholder": "*************",
+      "type": "password",
+      "widthPx": 343,
+      "inputHeightPx": 54,
+      "extras": "eye-slash toggle icon right; 'Forgot your password?' link right of label (Inter 400 16/24 #d0006f underline)"
+     }
+    ],
+    "buttons": [
+     {
+      "label": "Login",
+      "variant": "primary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login with Magic Link",
+      "variant": "secondary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login using DocCheck",
+      "variant": "secondary",
+      "fontWeight": 700
+     },
+     {
+      "label": "Login with AZ Employee Email",
+      "variant": "secondary",
+      "fontWeight": 700
+     }
+    ],
+    "heroImage": "none (no background image on mobile; plain white)",
+    "card": {
+     "widthPx": 375,
+     "fullBleed": true,
+     "topContent": {
+      "padding": {
+       "x": 16,
+       "y": 24
+      },
+      "gap": 24,
+      "height": 638,
+      "bg": "#ffffff"
+     },
+     "formGap": 24,
+     "fieldWidth": 343,
+     "bottomContent": {
+      "height": 96,
+      "padding": {
+       "top": 16,
+       "bottom": 16
+      },
+      "layout": "column centered gap 16 ('Don’t have an account?' above 'Create account')",
+      "bg": "#ebefee"
+     },
+     "checkbox": "left-aligned row gap 12"
+    },
+    "title": {
+     "font": "Lexia 400",
+     "fontSize": 26,
+     "lineHeight": 34,
+     "align": "center",
+     "color": "#830051",
+     "note": "text node offset x+40 (343w) in Figma, visually shifted right; treat as centered"
+    },
+    "secondaryButtonsGap": 16
+   },
+   {
+    "nodeId": "13496:10328",
+    "kind": "footer",
+    "y": 792,
+    "height": 534,
+    "padding": {
+     "top": 24,
+     "bottom": 24,
+     "x": 16
+    },
+    "texts": [
+     "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+     "Privacy Notice",
+     "Cookie Notice",
+     "Prescribing Information",
+     "Important Safety Information",
+     "Legal Statement",
+     "Site Map",
+     "AstraZeneca",
+     "Contact Us",
+     "XX-XXXX-01/2025"
+    ],
+    "stacking": "Container gap 24, all centered text; Main Content column gap 24: [1st Column (logo centered + text centered, gap 16, h142)] then [Frame 3 column gap 12: 2nd Column (4 links, gap 12) then 3rd Column (4 links, gap 12), each 300w, h132]; then Social + text row justify-between (icons left | code right)",
+    "textAlign": "center"
+   }
+  ]
+ }
+]

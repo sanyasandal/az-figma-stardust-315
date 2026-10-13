@@ -1,0 +1,265 @@
+// Asset URLs exported from Figma
+const ASSETS = {
+  leftContent: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6f7ed57a-ef81-48fe-a07f-c4ad072fabfc",
+  azText: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a3626e4c-b044-43f5-8218-94ba07a2b0a9",
+  azMark: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/95b4d8b2-feeb-44aa-a621-33009eef9532",
+  frame1: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/84776394-8ea3-4873-905a-e08b637b4abb",
+  generalIcons: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5d65dbd8-d6f8-46e6-bb12-e92da988d1d2",
+  generalIcons1: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/63f5b9ad-ef03-41ef-bd69-e6c3258c0aa1",
+  imagePlaceholder: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0fce673f-8ff3-4b52-b764-8407521032a6",
+  leftSideLabelIcon: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/29ae0582-609e-406c-887d-445edb5dbc6f",
+  leftSideIconText: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/339b8031-59d8-4720-8a88-8ebe59509f50",
+  rightSideTextIcon: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3bd4ceab-576a-49cd-995d-a7ecb6973b7b",
+  leftSideLabelIcon1: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/01468138-6f03-44a9-96c2-d3b08b7fb00f",
+  leftSideIconText1: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8ae81af3-7291-4fb6-b075-7b5b01735c24",
+  rightSideTextIcon1: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/36e2e670-b2ee-46ba-9eb1-f7f3e506c8b0",
+  checkboxInput: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/aa4b3840-d14f-447b-ab9b-1f93da27a25d",
+  frame47: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/99b7ac00-805c-4566-b27b-9b653612538e",
+  frame48: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5d7b8383-d88e-4e49-b816-755e0c8c7d0d",
+  brandLogos: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/96263ae4-70f5-46ae-a70f-5134b180eca9",
+  socialIcons: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6319b3ef-daa2-42d7-982e-c551e8562968",
+};
+
+export default function TypeLoginLandingBreakpointTablet() {
+  return (
+    <div className="relative flex flex-col w-[768px] h-fit shrink-0" data-name="Type=Login Landing, Breakpoint=Tablet" data-node-id="13496:10761">
+      <div className="relative flex flex-col w-full h-[58px] shrink-0" data-name="Header" data-node-id="13496:9861">
+
+
+
+        <div className="relative flex flex-col justify-center items-center gap-[10px] px-[32px] py-[12px] w-full h-[60px] bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#ebefee] shrink-0" data-name="Main Header" data-node-id="I13496:9861;12387:11403">
+          <div className="relative flex flex-row justify-between items-center gap-[97px] w-full h-fit shrink-0" data-name="Content" data-node-id="I13496:9861;12387:11404">
+            <img
+              src={ASSETS.leftContent}
+              alt="Left Content"
+              className="relative flex flex-col gap-[10px] w-[136px] h-fit shrink-0"
+              data-node-id="I13496:9861;12387:11405"
+            />
+            <img
+              src={ASSETS.frame1}
+              alt="Frame 1"
+              className="relative flex flex-row items-center gap-[16px] w-fit h-fit shrink-0"
+              data-node-id="I13496:9861;12387:11407"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="relative w-full h-[869px] shrink-0" data-name="Login" data-node-id="13496:9862">
+        <img
+          src={ASSETS.imagePlaceholder}
+          alt="Image Placeholder"
+          className="relative overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+          data-node-id="I13496:9862;12643:9903"
+        />
+        <div className="relative flex flex-row justify-center items-center gap-[10px] px-[28px] py-[32px] w-[768px] h-fit shrink-0" data-name="Frame" data-node-id="I13496:9862;12643:9904">
+          <div className="relative flex flex-col items-center w-fit h-fit shrink-0" data-name="Login Window" data-node-id="I13496:9862;12643:9905">
+            <div className="relative flex flex-col items-center gap-[40px] p-[40px] w-full h-fit bg-[var(--Background-Supporting-2,#ffffff)] shrink-0" data-name="Top Content" data-node-id="I13496:9862;12643:9906">
+              <div className="relative w-full h-fit bg-[var(--Text-Title-1,#830051)] font-['Lexia',sans-serif] font-normal text-[36px] leading-[40px] text-center text-[color:var(--Text-Title-1,#830051)] shrink-0" data-node-id="I13496:9862;12643:9907">
+                <p className="whitespace-pre-wrap">Login to your account</p>
+              </div>
+              <div className="relative flex flex-col items-center gap-[24px] w-fit h-fit shrink-0" data-name="Frame 1" data-node-id="I13496:9862;12643:9908">
+                <div className="relative flex flex-col gap-[4px] w-[470px] h-fit shrink-0" data-name="Input Field" data-node-id="I13496:9862;12643:9909">
+                  <div className="relative flex flex-col gap-[2px] w-full h-fit shrink-0" data-name="Top Content" data-node-id="I13496:9862;12643:9909;12160:3603">
+                    <div className="relative flex flex-row justify-between items-center gap-[170px] w-[384px] h-fit shrink-0" data-name="Label + Right Side Link" data-node-id="I13496:9862;12643:9909;12160:3604">
+                      <img
+                        src={ASSETS.leftSideLabelIcon}
+                        alt="Left Side: Label + Icon"
+                        className="relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0"
+                        data-node-id="I13496:9862;12643:9909;12160:3605"
+                      />
+
+                    </div>
+
+                  </div>
+                  <div className="relative flex flex-row items-center gap-[8px] px-[16px] w-full h-[54px] rounded-[4px] bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#d8dada] shrink-0" data-name="Input Field" data-node-id="I13496:9862;12643:9909;12160:3612">
+                    <img
+                      src={ASSETS.leftSideIconText}
+                      alt="Left Side: Icon + Text"
+                      className="relative flex flex-row items-center gap-[8px] w-full h-fit shrink-0"
+                      data-node-id="I13496:9862;12643:9909;12160:3613"
+                    />
+                    <img
+                      src={ASSETS.rightSideTextIcon}
+                      alt="Right Side: Text + Icon"
+                      className="relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0"
+                      data-node-id="I13496:9862;12643:9909;12160:3619"
+                    />
+                  </div>
+
+                </div>
+                <div className="relative flex flex-col gap-[4px] w-[470px] h-fit shrink-0" data-name="Input Field" data-node-id="I13496:9862;12643:9910">
+                  <div className="relative flex flex-col gap-[2px] w-full h-fit shrink-0" data-name="Top Content" data-node-id="I13496:9862;12643:9910;12160:3648">
+                    <div className="relative flex flex-row justify-between items-center gap-[170px] w-full h-fit shrink-0" data-name="Label + Right Side Link" data-node-id="I13496:9862;12643:9910;12160:3649">
+                      <img
+                        src={ASSETS.leftSideLabelIcon1}
+                        alt="Left Side: Label + Icon"
+                        className="relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0"
+                        data-node-id="I13496:9862;12643:9910;12160:3650"
+                      />
+                      <div className="relative w-fit h-fit bg-[var(--Text-Interaction,#d0006f)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Interaction,#d0006f)] underline shrink-0" data-node-id="I13496:9862;12643:9910;12160:3655">
+                        <p className="whitespace-pre-wrap">Forgot your password?</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className="relative flex flex-row items-center gap-[8px] px-[16px] w-full h-[54px] rounded-[4px] bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#d8dada] shrink-0" data-name="Input Field" data-node-id="I13496:9862;12643:9910;12160:3657">
+                    <img
+                      src={ASSETS.leftSideIconText1}
+                      alt="Left Side: Icon + Text"
+                      className="relative flex flex-row items-center gap-[8px] w-full h-fit shrink-0"
+                      data-node-id="I13496:9862;12643:9910;12160:3658"
+                    />
+                    <img
+                      src={ASSETS.rightSideTextIcon1}
+                      alt="Right Side: Text + Icon"
+                      className="relative flex flex-row items-center gap-[2px] w-fit h-fit shrink-0"
+                      data-node-id="I13496:9862;12643:9910;12160:3664"
+                    />
+                  </div>
+
+                </div>
+                <div className="relative flex flex-row justify-center items-center gap-[8px] px-[16px] w-full h-[42px] rounded-[4px] bg-[var(--Button-Primary-Background,#d0006f)] border-[1px] border-solid border-[#d0006f] shrink-0" data-name="Button" data-node-id="I13496:9862;12643:9911">
+
+                  <div className="relative w-fit h-fit bg-[var(--Button-Primary-Text,#ffffff)] font-['Inter',sans-serif] font-bold text-[16px] leading-[24px] text-center text-[color:var(--Button-Primary-Text,#ffffff)] shrink-0" data-node-id="I13496:9862;12643:9911;12077:109144">
+                    <p className="whitespace-pre-wrap">Login</p>
+                  </div>
+
+                </div>
+                <div className="relative flex flex-row items-center gap-[12px] w-fit h-fit shrink-0" data-name="Checkbox Form" data-node-id="I13496:9862;12643:9912">
+                  <img
+                    src={ASSETS.checkboxInput}
+                    alt="Checkbox Input"
+                    className="relative w-[20px] h-[20px] rounded-[4px] bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#d8dada] overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+                    data-node-id="I13496:9862;12643:9912;13496:2679"
+                  />
+                  <div className="relative w-fit h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9862;12643:9912;12274:6370">
+                    <p className="whitespace-pre-wrap">Remember me on this device</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative flex flex-row items-center gap-[8px] w-full h-fit shrink-0" data-name="Frame 1" data-node-id="I13496:9862;12643:9913">
+                <img
+                  src={ASSETS.frame47}
+                  alt="Frame 47"
+                  className="relative w-full h-[1px] bg-[var(--Table-Table-Header,#d8dfde)] overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+                  data-node-id="I13496:9862;12643:9914"
+                />
+                <div className="relative w-fit h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-bold text-[16px] leading-[24px] text-center text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9862;12643:9915">
+                  <p className="whitespace-pre-wrap">Or</p>
+                </div>
+                <img
+                  src={ASSETS.frame48}
+                  alt="Frame 48"
+                  className="relative w-full h-[1px] bg-[var(--Table-Table-Header,#d8dfde)] overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+                  data-node-id="I13496:9862;12643:9916"
+                />
+              </div>
+              <div className="relative flex flex-col items-center gap-[16px] w-full h-fit shrink-0" data-name="Frame 2" data-node-id="I13496:9862;12643:9917">
+                <div className="relative flex flex-row justify-center items-center gap-[8px] px-[16px] w-full h-[42px] rounded-[4px] bg-[var(--Button-Secondary-Background,#ffffff)] border-[1px] border-solid border-[#d0006f] shrink-0" data-name="Button" data-node-id="I13496:9862;12643:9918">
+
+                  <div className="relative w-fit h-fit bg-[var(--Button-Secondary-Text,#d0006f)] font-['Inter',sans-serif] font-bold text-[16px] leading-[24px] text-center text-[color:var(--Button-Secondary-Text,#d0006f)] shrink-0" data-node-id="I13496:9862;12643:9918;12084:109167">
+                    <p className="whitespace-pre-wrap">Login with Magic Link</p>
+                  </div>
+
+                </div>
+                <div className="relative flex flex-row justify-center items-center gap-[8px] px-[16px] w-full h-[42px] rounded-[4px] bg-[var(--Button-Secondary-Background,#ffffff)] border-[1px] border-solid border-[#d0006f] shrink-0" data-name="Button" data-node-id="I13496:9862;12643:9919">
+
+                  <div className="relative w-fit h-fit bg-[var(--Button-Secondary-Text,#d0006f)] font-['Inter',sans-serif] font-bold text-[16px] leading-[24px] text-center text-[color:var(--Button-Secondary-Text,#d0006f)] shrink-0" data-node-id="I13496:9862;12643:9919;12084:109167">
+                    <p className="whitespace-pre-wrap">Login using DocCheck</p>
+                  </div>
+
+                </div>
+                <div className="relative flex flex-row justify-center items-center gap-[8px] px-[16px] w-full h-[42px] rounded-[4px] bg-[var(--Button-Secondary-Background,#ffffff)] border-[1px] border-solid border-[#d0006f] shrink-0" data-name="Button" data-node-id="I13496:9862;12643:9920">
+
+                  <div className="relative w-fit h-fit bg-[var(--Button-Secondary-Text,#d0006f)] font-['Inter',sans-serif] font-bold text-[16px] leading-[24px] text-center text-[color:var(--Button-Secondary-Text,#d0006f)] shrink-0" data-node-id="I13496:9862;12643:9920;12084:109167">
+                    <p className="whitespace-pre-wrap">Login with AZ Employee Email</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="relative flex flex-row justify-center items-center gap-[16px] py-[24px] w-full h-fit bg-[var(--Table-Table-Row-BG-2,#ebefee)] shrink-0" data-name="Bottom Content" data-node-id="I13496:9862;12643:9921">
+              <div className="relative w-fit h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-center text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9862;12643:9922">
+                <p className="whitespace-pre-wrap">Don’t have an account?</p>
+              </div>
+              <div className="relative w-fit h-fit bg-[var(--Text-Interaction,#d0006f)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-center text-[color:var(--Text-Interaction,#d0006f)] underline shrink-0" data-node-id="I13496:9862;12643:9923">
+                <p className="whitespace-pre-wrap">Create account</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative flex flex-col items-center gap-[10px] p-[32px] w-full h-fit bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#ebefee] shrink-0" data-name="Footer" data-node-id="13496:9863">
+        <div className="relative flex flex-col gap-[32px] w-full h-fit shrink-0" data-name="Container" data-node-id="I13496:9863;12406:12189">
+          <div className="relative flex flex-col gap-[32px] w-full h-fit shrink-0" data-name="Main Content" data-node-id="I13496:9863;12406:12190">
+            <div className="relative flex flex-col gap-[16px] w-full h-fit shrink-0" data-name="1st Column" data-node-id="I13496:9863;12406:12191">
+              <img
+                src={ASSETS.brandLogos}
+                alt="Brand Logos"
+                className="relative w-[126px] h-[30px] overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+                data-node-id="I13496:9863;12406:12192"
+              />
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12193">
+                <p className="whitespace-pre-wrap">The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.</p>
+              </div>
+            </div>
+            <div className="relative flex flex-row justify-between items-center w-full h-fit shrink-0" data-name="Frame 3" data-node-id="I13496:9863;12406:12803">
+              <div className="relative flex flex-col gap-[16px] w-[300px] h-fit shrink-0" data-name="2nd Column" data-node-id="I13496:9863;12406:12194">
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12195">
+                  <p className="whitespace-pre-wrap">Privacy Notice</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12196">
+                  <p className="whitespace-pre-wrap">Cookie Notice</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12197">
+                  <p className="whitespace-pre-wrap">Prescribing Information</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12198">
+                  <p className="whitespace-pre-wrap">Important Safety Information</p>
+                </div>
+              </div>
+              <div className="relative flex flex-col gap-[16px] w-[300px] h-fit shrink-0" data-name="3rd Column" data-node-id="I13496:9863;12406:12199">
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12200">
+                  <p className="whitespace-pre-wrap">Legal Statement</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12201">
+                  <p className="whitespace-pre-wrap">Site Map</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12202">
+                  <p className="whitespace-pre-wrap">AstraZeneca</p>
+                </div>
+                <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12203">
+                  <p className="whitespace-pre-wrap">Contact Us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative flex flex-row justify-between items-end gap-[210px] w-full h-fit shrink-0" data-name="Social + text" data-node-id="I13496:9863;12406:12204">
+            <img
+              src={ASSETS.socialIcons}
+              alt="Social Icons"
+              className="relative flex flex-row items-center gap-[16px] w-fit h-fit shrink-0"
+              data-node-id="I13496:9863;12406:12205"
+            />
+            <div className="relative flex flex-row justify-center items-center gap-[10px] w-fit h-fit shrink-0" data-name="Frame 1" data-node-id="I13496:9863;12406:12211">
+              <div className="relative w-fit h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-medium text-[12px] leading-[20px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13496:9863;12406:12212">
+                <p className="whitespace-pre-wrap">XX-XXXX-01/2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+IMPORTANT: The generated React+Tailwind code should be adapted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library if needed
+3. Transform Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+
+Node IDs have been added as data attributes (data-node-id="x:y") for reference back to Figma.
+Asset URLs are stored in the ASSETS constant and are valid for 14 days.
+
+IMPORTANT: After calling this tool, consider using get_screenshot to get a visual reference of the design.

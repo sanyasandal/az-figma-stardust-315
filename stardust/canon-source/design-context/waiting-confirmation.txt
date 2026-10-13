@@ -1,0 +1,140 @@
+// Asset URLs exported from Figma
+const ASSETS = {
+  leftContent: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/60f589b0-5f12-45ec-8798-ebbda208f6db",
+  azText: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/21a324e6-7e93-4132-a6ab-340bf796a5c4",
+  azMark: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7673b8e8-bc16-4987-873f-1cb865906a09",
+  brandLogos: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0741ec12-d3c0-4fa1-a5b8-f9f4899bc661",
+  socialIcons: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/010ca932-bbd2-4258-a35c-a9e3ac7fd078",
+};
+
+export default function TypeWaitingConfirmationBreakpointDesktop() {
+  return (
+    <div className="relative flex flex-col w-fit h-[1024px] shrink-0" data-name="Type=Waiting Confirmation, Breakpoint=Desktop" data-node-id="13530:16259">
+      <div className="relative flex flex-col w-[1440px] h-fit shrink-0" data-name="Header" data-node-id="13530:16260">
+
+
+
+        <div className="relative flex flex-col justify-center items-center gap-[10px] py-[12px] w-full h-[60px] bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#ebefee] shrink-0" data-name="Main Header" data-node-id="I13530:16260;13496:14562">
+          <div className="relative flex flex-row items-center gap-[97px] w-[1180px] h-fit shrink-0" data-name="Content" data-node-id="I13530:16260;13496:14563">
+            <img
+              src={ASSETS.leftContent}
+              alt="Left Content"
+              className="relative flex flex-col gap-[10px] w-[136px] h-fit shrink-0"
+              data-node-id="I13530:16260;13496:14564"
+            />
+
+
+          </div>
+        </div>
+      </div>
+      <div className="relative flex flex-col items-center pt-[40px] w-[1440px] h-fit min-h-[42px] bg-[var(--Background-Supporting-2,#ffffff)] shrink-0" data-name="Block Content" data-node-id="13530:16261">
+        <div className="relative flex flex-col gap-[16px] w-[1180px] h-fit shrink-0" data-name=".Block Element" data-node-id="I13530:16261;12534:1406">
+          <div className="relative flex flex-row gap-[10px] w-full h-fit shrink-0" data-name=".Title" data-node-id="I13530:16261;12534:1406;12534:1395">
+            <div className="relative w-full h-fit bg-[var(--Text-Title-1,#830051)] font-['Lexia',sans-serif] font-normal text-[46px] leading-[50px] text-left text-[color:var(--Text-Title-1,#830051)] shrink-0" data-node-id="I13530:16261;12534:1406;12534:1395;12529:1207">
+              <p className="whitespace-pre-wrap">The most inspiring heading</p>
+            </div>
+          </div>
+          <div className="relative flex flex-row gap-[10px] w-full h-fit shrink-0" data-name=".Text" data-node-id="I13530:16261;12534:1406;12534:1397">
+            <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16261;12534:1406;12534:1397;12534:1254">
+              <p className="whitespace-pre-wrap">One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative flex flex-row justify-center items-center gap-[12px] py-[40px] w-full h-fit bg-[var(--Background-Supporting-2,#ffffff)] shrink-0" data-name="Frame 2" data-node-id="13530:16744">
+        <div className="relative w-[12px] h-[12px] bg-[var(--Background-Core-3,#d0006f)] shrink-0" data-name="Ellipse 1" data-node-id="13530:16745" />
+        <div className="relative w-[12px] h-[12px] bg-[var(--Background-Core-3,#d0006f)] shrink-0" data-name="Ellipse 2" data-node-id="13530:16746" />
+      </div>
+      <div className="relative flex flex-col items-center w-[1440px] h-fit min-h-[42px] bg-[var(--Background-Supporting-2,#ffffff)] shrink-0" data-name="Block Content" data-node-id="13530:16748">
+        <div className="relative flex flex-col gap-[16px] w-[1180px] h-fit shrink-0" data-name=".Block Element" data-node-id="I13530:16748;12534:1406">
+
+          <div className="relative flex flex-row gap-[10px] w-full h-fit shrink-0" data-name=".Text" data-node-id="I13530:16748;12534:1406;12534:1397">
+            <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16748;12534:1406;12534:1397;12534:1254">
+              <p className="whitespace-pre-wrap">One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative flex flex-col items-center w-[1440px] h-full min-h-[42px] bg-[var(--Background-Supporting-2,#ffffff)] shrink-0" data-name="Block Content" data-node-id="13530:16754">
+        <div className="relative flex flex-col gap-[16px] w-[1180px] h-fit shrink-0" data-name=".Block Element" data-node-id="I13530:16754;12534:1406">
+
+          <div className="relative flex flex-row gap-[10px] w-full h-fit shrink-0" data-name=".Text" data-node-id="I13530:16754;12534:1406;12534:1397">
+            <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16754;12534:1406;12534:1397;12534:1254">
+              <p className="whitespace-pre-wrap">One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative flex flex-col items-center gap-[10px] py-[40px] w-[1440px] h-fit bg-[var(--Background-Supporting-2,#ffffff)] border-[1px] border-solid border-[#ebefee] shrink-0" data-name="Footer" data-node-id="13530:16265">
+        <div className="relative flex flex-col gap-[48px] w-[1180px] h-fit shrink-0" data-name="Container" data-node-id="I13530:16265;12406:12184">
+          <div className="relative flex flex-row justify-between items-center gap-[45px] w-full h-fit shrink-0" data-name="Main Content" data-node-id="I13530:16265;12406:12165">
+            <div className="relative flex flex-col gap-[16px] w-[300px] h-fit shrink-0" data-name="1st Column" data-node-id="I13530:16265;12406:12144">
+              <img
+                src={ASSETS.brandLogos}
+                alt="Brand Logos"
+                className="relative w-[126px] h-[30px] overflow-hidden shrink-0" style={{ overflow: "hidden" }}
+                data-node-id="I13530:16265;12406:12140"
+              />
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12143">
+                <p className="whitespace-pre-wrap">The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.</p>
+              </div>
+            </div>
+            <div className="relative flex flex-col gap-[16px] w-[300px] h-fit shrink-0" data-name="2nd Column" data-node-id="I13530:16265;12406:12154">
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12149">
+                <p className="whitespace-pre-wrap">Privacy Notice</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12150">
+                <p className="whitespace-pre-wrap">Cookie Notice</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12151">
+                <p className="whitespace-pre-wrap">Prescribing Information</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12152">
+                <p className="whitespace-pre-wrap">Important Safety Information</p>
+              </div>
+            </div>
+            <div className="relative flex flex-col gap-[16px] w-[300px] h-fit shrink-0" data-name="3rd Column" data-node-id="I13530:16265;12406:12155">
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12160">
+                <p className="whitespace-pre-wrap">Legal Statement</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12161">
+                <p className="whitespace-pre-wrap">Site Map</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12162">
+                <p className="whitespace-pre-wrap">AstraZeneca</p>
+              </div>
+              <div className="relative w-full h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-normal text-[16px] leading-[24px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12163">
+                <p className="whitespace-pre-wrap">Contact Us</p>
+              </div>
+            </div>
+          </div>
+          <div className="relative flex flex-row justify-between items-end gap-[210px] w-full h-fit shrink-0" data-name="Social + text" data-node-id="I13530:16265;12406:12182">
+            <img
+              src={ASSETS.socialIcons}
+              alt="Social Icons"
+              className="relative flex flex-row items-center gap-[16px] w-fit h-fit shrink-0"
+              data-node-id="I13530:16265;12406:12170"
+            />
+            <div className="relative flex flex-row justify-center items-center gap-[10px] w-fit h-fit shrink-0" data-name="Frame 1" data-node-id="I13530:16265;12406:12183">
+              <div className="relative w-fit h-fit bg-[var(--Text-Body-1,#3c4242)] font-['Inter',sans-serif] font-medium text-[12px] leading-[20px] text-left text-[color:var(--Text-Body-1,#3c4242)] shrink-0" data-node-id="I13530:16265;12406:12181">
+                <p className="whitespace-pre-wrap">XX-XXXX-01/2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+IMPORTANT: The generated React+Tailwind code should be adapted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library if needed
+3. Transform Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+
+Node IDs have been added as data attributes (data-node-id="x:y") for reference back to Figma.
+Asset URLs are stored in the ASSETS constant and are valid for 14 days.
+
+IMPORTANT: After calling this tool, consider using get_screenshot to get a visual reference of the design.

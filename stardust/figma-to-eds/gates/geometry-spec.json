@@ -1,0 +1,31 @@
+{
+  "_provenance": "figma-to-eds gate 2 (geometry); expectations from excatfigma get_design_context: login-landing-desktop 13496:9636, login-landing-tablet, registration, forgot-password",
+  "page": "http://localhost:3000/login",
+  "origin": "main",
+  "cases": [
+    { "name": "login-desktop-1440", "viewport": { "width": 1440, "height": 1000 },
+      "checks": [
+        { "name": "hero", "selector": ".form.login", "expect": { "top": 0, "left": 0, "width": 1440, "height": 941 }, "tol": { "default": 1 }, "source": "I13496:9636;12643:9455" },
+        { "name": "card", "selector": ".form.login .form-card", "expect": { "left": 80, "width": 550 }, "tol": { "default": 1 }, "source": "I13496:9636;12643:9380" },
+        { "name": "email-input", "selector": ".form.login input[type=email]", "expect": { "left": 120, "width": 470, "height": 54 }, "tol": { "default": 1 }, "source": "I13496:9636;12643:9384" },
+        { "name": "submit", "selector": ".form.login button[type=submit]", "expect": { "left": 120, "width": 470, "height": 42 }, "tol": { "default": 1 }, "source": "button Login" },
+        { "name": "title-to-fields", "selector": ".form.login .form-group", "gapFrom": ".form.login h1", "expect": { "gap": 40 }, "tol": { "default": 2 }, "source": "Top Content gap-40" }
+      ] },
+    { "name": "login-tablet-768", "viewport": { "width": 768, "height": 1100 },
+      "checks": [
+        { "name": "hero", "selector": ".form.login", "expect": { "width": 768, "height": 869 }, "tol": { "default": 1 }, "source": "login-landing-tablet h-869" },
+        { "name": "card", "selector": ".form.login .form-card", "expect": { "left": 109, "width": 550 }, "tol": { "default": 1 }, "source": "login-landing-tablet" },
+        { "name": "email-input", "selector": ".form.login input[type=email]", "expect": { "width": 470, "height": 54 }, "tol": { "default": 1 }, "source": "login-landing-tablet w-470" }
+      ] },
+    { "name": "registration-desktop-1440", "page": "http://localhost:3000/registration", "viewport": { "width": 1440, "height": 1000 },
+      "checks": [
+        { "name": "h1", "selector": "main h1", "expect": { "left": 130, "width": 1180 }, "tol": { "default": 1 }, "source": "registration .Block Element w-1180" },
+        { "name": "field-col1", "selector": ".form input[type=text]", "expect": { "left": 130, "width": 570, "height": 54 }, "tol": { "default": 1 }, "source": "registration 2-col, gap 40" }
+      ] },
+    { "name": "forgot-password-1440", "page": "http://localhost:3000/forgot-password", "viewport": { "width": 1440, "height": 900 },
+      "checks": [
+        { "name": "email-input", "selector": ".form.centered input[type=email]", "expect": { "left": 435, "width": 570, "height": 54 }, "tol": { "default": 1 }, "source": "forgot-password w-570 centred" },
+        { "name": "actions-h", "selector": ".section.actions .button", "expect": { "height": 42 }, "tol": { "default": 1 }, "source": "buttons h42" }
+      ] }
+  ]
+}
